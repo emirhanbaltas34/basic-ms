@@ -1,6 +1,6 @@
 {
     "name": "basic-ms",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Basic MS Module.",
     "main": "index.js",
     "scripts": {
@@ -16,8 +16,9 @@
         "wio.db",
         "easy",
         "time",
-        "timetoms",
-        "time-to-ms"
+        "time-to-ms",
+        "node-ms",
+        "ms-to-time"
     ],
     "author": "emirhanbaltas34",
     "license": "Apache-2.0",

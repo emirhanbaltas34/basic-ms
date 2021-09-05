@@ -5,6 +5,12 @@
 
 ![Image](https://nodei.co/npm/basic-ms.png?downloads=true&downloadRank=true&stars=true)
 
+# News
+
+```npm
+- TypeScript Error Fixed.
+```
+
 # Use
 
 ```js

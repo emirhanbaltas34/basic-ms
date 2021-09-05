@@ -100,16 +100,18 @@ class Util {
      * @returns {boolean}
      */
     static isTimeExists(time) {
-        if (time.endsWith("s")) return true;
-        else if (time.endsWith("m")) return true;
-        else if (time.endsWith("h")) return true;
-        else if (time.endsWith("d")) return true;
-        else if (time.endsWith("w")) return true;
-        else if (time.endsWith("mo")) return true;
-        else if (time.endsWith("y")) return true;
-        else return false;
+        const args = ["s", "m", "h", "d", "w", "mo", "y"]
+        for(let arg of args){
+            if(time.endsWith(arg)) return true;
+            else return false;
+        }
     }
 
+    /**
+     * 
+     * @param {number} milliseconds 
+     * @returns {number}
+     */
     static parseMilliseconds(milliseconds) {
         return Math.abs(milliseconds);
     }
