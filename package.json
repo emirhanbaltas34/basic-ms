@@ -1,0 +1,39 @@
+{
+    "name": "node-basic-ms",
+    "version": "1.0.0",
+    "description": "Basic MS Module.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "types": "index.d.ts",
+    "keywords": [
+        "node-basic-ms",
+        "ms",
+        "erax.db",
+        "fast",
+        "quick",
+        "wio.db",
+        "easy",
+        "time",
+        "timetoms",
+        "time-to-ms"
+    ],
+    "author": "emirhanbaltas34",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emirhanbaltas34/node-basic-ms.git"
+    },
+    "bugs": {
+        "url": "https://github.com/emirhanbaltas34/node-basic-ms/issues"
+    },
+    "homepage": "https://github.com/emirhanbaltas34/node-basic-ms#readme",
+    "dependencies": {
+        "chalk": "^4.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.31.0",
+        "prettierrc": "0.0.0-5"
+    }
+}
