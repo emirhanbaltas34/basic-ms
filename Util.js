@@ -100,16 +100,16 @@ class Util {
      * @returns {boolean}
      */
     static isTimeExists(time) {
-        const args = ["s", "m", "h", "d", "w", "mo", "y"]
-        for(let arg of args){
-            if(time.endsWith(arg)) return true;
+        const args = ["s", "m", "h", "d", "w", "mo", "y"];
+        for (let arg of args) {
+            if (time.endsWith(arg)) return true;
             else return false;
         }
     }
 
     /**
-     * 
-     * @param {number} milliseconds 
+     *
+     * @param {number} milliseconds
      * @returns {number}
      */
     static parseMilliseconds(milliseconds) {
