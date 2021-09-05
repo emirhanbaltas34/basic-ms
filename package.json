@@ -1,5 +1,5 @@
 {
-    "name": "node-basic-ms",
+    "name": "basic-ms",
     "version": "1.0.0",
     "description": "Basic MS Module.",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "types": "index.d.ts",
     "keywords": [
-        "node-basic-ms",
+        "basic-ms",
         "ms",
         "erax.db",
         "fast",
@@ -23,12 +23,12 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/emirhanbaltas34/node-basic-ms.git"
+        "url": "git+https://github.com/emirhanbaltas34/basic-ms.git"
     },
     "bugs": {
-        "url": "https://github.com/emirhanbaltas34/node-basic-ms/issues"
+        "url": "https://github.com/emirhanbaltas34/basic-ms/issues"
     },
-    "homepage": "https://github.com/emirhanbaltas34/node-basic-ms#readme",
+    "homepage": "https://github.com/emirhanbaltas34/basic-ms#readme",
     "dependencies": {
         "chalk": "^4.1.2"
     },

@@ -52,7 +52,7 @@ class Util {
                 return Math.round((milliseconds /= y)) + "years";
             }
             if (parsedMilliseconds >= mo) {
-                return Math.round((milliseconds /= mo)) + "mondays";
+                return Math.round((milliseconds /= mo)) + "months";
             }
             if (parsedMilliseconds >= w) {
                 return Math.round((milliseconds /= w)) + "weeks";
