@@ -10,7 +10,9 @@ class ErrorManager extends Error {
      * @param {string} message
      */
     constructor(message) {
-        const errorMessage = `${chalk.red("[ NodeMS ]")} ${chalk.blue("=>")} ${chalk.gray(message)}`;
+        const errorMessage = `${chalk.red("[ BasicMS ]")} ${chalk.blue("=>")} ${chalk.gray(
+            message
+        )}`;
         super(errorMessage);
     }
 }

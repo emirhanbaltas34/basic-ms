@@ -8,7 +8,7 @@
 # News
 
 ```npm
-- TypeScript Error Fixed.
+- Fixed Bugs.
 ```
 
 # Use

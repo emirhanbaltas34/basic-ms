@@ -1,6 +1,6 @@
 {
     "name": "basic-ms",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "Basic MS Module.",
     "main": "index.js",
     "scripts": {
