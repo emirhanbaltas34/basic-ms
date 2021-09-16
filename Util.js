@@ -74,7 +74,7 @@ class Util {
                 return Math.round((milliseconds /= y)) + "y";
             }
             if (parsedMilliseconds >= mo) {
-                return Math.round((milliseconds /= mo)) + "m";
+                return Math.round((milliseconds /= mo)) + "mo";
             }
             if (parsedMilliseconds >= w) {
                 return Math.round((milliseconds /= w)) + "w";
