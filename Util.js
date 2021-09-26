@@ -101,10 +101,11 @@ class Util {
      */
     static isTimeExists(time) {
         const args = ["s", "m", "h", "d", "w", "mo", "y"];
+        let i = false;
         for (let arg of args) {
-            if (time.endsWith(arg)) return true;
-            else return false;
+            if (time.endsWith(arg)) i = true;
         }
+        return i;
     }
 
     /**

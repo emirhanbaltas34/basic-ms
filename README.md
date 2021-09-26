@@ -8,7 +8,7 @@
 # News
 
 ```npm
-- Fixed Bugs.
+- Fixed Errors.
 ```
 
 # Use
