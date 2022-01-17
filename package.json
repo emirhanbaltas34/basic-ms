@@ -1,6 +1,6 @@
 {
     "name": "basic-ms",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Basic MS Module.",
     "main": "index.js",
     "scripts": {
@@ -20,16 +20,16 @@
         "node-ms",
         "ms-to-time"
     ],
-    "author": "emirhanbaltas34",
+    "author": "deliever",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/emirhanbaltas34/basic-ms.git"
+        "url": "git+https://github.com/deliever42/basic-ms.git"
     },
     "bugs": {
-        "url": "https://github.com/emirhanbaltas34/basic-ms/issues"
+        "url": "https://github.com/deliever42/basic-ms/issues"
     },
-    "homepage": "https://github.com/emirhanbaltas34/basic-ms#readme",
+    "homepage": "https://github.com/deliever42/basic-ms#readme",
     "dependencies": {
         "chalk": "^4.1.2"
     },

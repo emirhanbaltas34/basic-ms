@@ -36,7 +36,7 @@ ms(2629800000, { long: false }); //1mo
 ms(31557600000, { long: false }); //1y
 
 //Ms To Time (Long = true)
-ms(1, { long: true }); //milliseconds
+ms(1, { long: true }); //1milliseconds
 ms(1000, { long: true }); //1seconds
 ms(60000), { long: true }; //1minutes
 ms(3600000, { long: true }); //1hours
@@ -46,5 +46,3 @@ ms(2629800000, { long: true }); //1months
 ms(31557600000, { long: true }); //1years
 
 ```
-
-### To Report a Bug: Emirhan77#0001 Via Discord
