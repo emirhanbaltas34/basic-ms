@@ -8,41 +8,20 @@
 # News
 
 ```npm
-- Fixed Errors.
+- Added parse ms and ms to time.
 ```
 
 # Use
 
 ```js
-const ms = require("basic-ms");
+const { timeToMs, parseMs, msToTime } = require('basic-ms');
 
 //Time To Ms
-ms("1s"); //1000
-ms("1m"); //60000
-ms("1h"); //3600000
-ms("1d"); //86400000
-ms("1w"); //604800016
-ms("1mo"); //2629800000
-ms("1y"); //31557600000
+timeToMs('1h'); // 3600000
 
-//Ms To Time (Long = false)
-ms(1, { long: false }); //1ms
-ms(1000, { long: false }); //1s
-ms(60000), { long: false }; //1m
-ms(3600000, { long: false }); //1h
-ms(86400000, { long: false }); //1d
-ms(604800016, { long: false }); //1w
-ms(2629800000, { long: false }); //1mo
-ms(31557600000, { long: false }); //1y
+//Ms To Time
+msToTime(3600000); // 1h
 
-//Ms To Time (Long = true)
-ms(1, { long: true }); //1milliseconds
-ms(1000, { long: true }); //1seconds
-ms(60000), { long: true }; //1minutes
-ms(3600000, { long: true }); //1hours
-ms(86400000, { long: true }); //1days
-ms(604800016, { long: true }); //1weeks
-ms(2629800000, { long: true }); //1months
-ms(31557600000, { long: true }); //1years
-
+//parseMs
+msToTime(3600000); // { years: 0, months: 0, weeks: 0, days: 0, hours: 10, minutes: 600, seconds: 36000, milliseconds: 0 }
 ```
