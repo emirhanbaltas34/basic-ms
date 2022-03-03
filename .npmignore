@@ -1,3 +1,7 @@
 .prettierrc
 .eslintrc.json
 .npmrc
+tsconfig.json
+src/
+node_modules/
+test/
