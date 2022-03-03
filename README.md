@@ -23,5 +23,5 @@ timeToMs('1h'); // 3600000
 msToTime(3600000); // 1h
 
 //parseMs
-msToTime(3600000); // { years: 0, months: 0, weeks: 0, days: 0, hours: 10, minutes: 600, seconds: 36000, milliseconds: 0 }
+parseMs(3600000); // { years: 0, months: 0, weeks: 0, days: 0, hours: 10, minutes: 600, seconds: 36000, milliseconds: 0 }
 ```
