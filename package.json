@@ -19,16 +19,16 @@
         "node-ms",
         "ms-to-time"
     ],
-    "author": "deliever",
+    "author": "hanzydev",
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/deliever42/basic-ms.git"
+        "url": "git+https://github.com/hanzydev/basic-ms.git"
     },
     "bugs": {
-        "url": "https://github.com/deliever42/basic-ms/issues"
+        "url": "https://github.com/hanzydev/basic-ms/issues"
     },
-    "homepage": "https://github.com/deliever42/basic-ms#readme",
+    "homepage": "https://github.com/hanzydev/basic-ms#readme",
     "devDependencies": {
         "eslint": "^8.10.0",
         "prettier": "^2.5.1",
